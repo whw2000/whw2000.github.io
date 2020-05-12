@@ -64,10 +64,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-用终端写hexo的命令与执行过程" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-aasas" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/04/09/%E7%94%A8%E7%BB%88%E7%AB%AF%E5%86%99hexo%E7%9A%84%E5%91%BD%E4%BB%A4%E4%B8%8E%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B/" class="article-date">
-  <time datetime="2020-04-09T08:11:19.106Z" itemprop="datePublished">2020-04-09</time>
+    <a href="/2020/05/12/aasas/" class="article-date">
+  <time datetime="2020-05-12T09:49:59.600Z" itemprop="datePublished">2020-05-12</time>
 </a>
     
   </div>
@@ -78,7 +78,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/09/%E7%94%A8%E7%BB%88%E7%AB%AF%E5%86%99hexo%E7%9A%84%E5%91%BD%E4%BB%A4%E4%B8%8E%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B/">用终端写hexo的命令与执行过程</a>
+      <a class="article-title" href="/2020/05/12/aasas/">aasas</a>
     </h1>
   
 
@@ -86,19 +86,13 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>##如何在终端中创建hexo并上传到本地与外网上的执行过程</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1.用sudo su命令登陆到root用户 并输入密码</span><br><span class="line">2.使用pwd命令显示当前所在位置</span><br><span class="line">3.使用ls命令查看当前目录有哪些文件</span><br></pre></td></tr></table></figure>
-<hr>
-<p>###这里的路径是自己文件_posts所在的路径</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">4.使用cd命令进入_posts目录cd blog&#x2F;source&#x2F;_posts</span><br><span class="line">~~~ </span><br><span class="line"></span><br><span class="line">---</span><br><span class="line">###如果电脑上没有markdown的话，就用vim创建</span><br></pre></td></tr></table></figure>
-<p>5.用vim(当文件没有创建时,会创建一个空白文件并且进入该文件),如果使用touch命令则只是创建一个文件,命令使用方法:vim/touch 文件名</p>
-<pre><code>
----</code></pre><p>6.使用vim命令进入文件后,按I键进入写入模式,这时候输入文字,当输入完成后按esc键然后用:wq(冒号要加上)命令保存退出，如果想显示编辑文件行号则先按esc键后用:set nu命令后显示行号<br>7.MarkDown语言:##代表标题,最多可有5个#作为标题,6个#则文字字体变灰色<del>~</del>空格+回撤即为代码块,–代表分隔<br>8.用rm -rf命令删除文件,命令后加空格接文件名</p>
+        <p>aasas</p>
+<p><img src="/Users/wanghongwu/blog/source/imagesimage-20200512174440976.png" alt="image-20200512174440976"></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/09/%E7%94%A8%E7%BB%88%E7%AB%AF%E5%86%99hexo%E7%9A%84%E5%91%BD%E4%BB%A4%E4%B8%8E%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B/" data-id="ck8shft190000sbbmdajhfiw1" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/05/12/aasas/" data-id="cka3qzy950000oabm2ir05cm8" class="article-share-link">Share</a>
       
       
     </footer>
@@ -110,8 +104,8 @@
   
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/04/08/hello-world/" class="article-date">
-  <time datetime="2020-04-08T11:06:57.393Z" itemprop="datePublished">2020-04-08</time>
+    <a href="/2020/04/26/hello-world/" class="article-date">
+  <time datetime="2020-04-26T10:12:42.017Z" itemprop="datePublished">2020-04-26</time>
 </a>
     
   </div>
@@ -122,7 +116,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/08/hello-world/">Hello World</a>
+      <a class="article-title" href="/2020/04/26/hello-world/">Hello World</a>
     </h1>
   
 
@@ -143,11 +137,12 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p><img src="/images/Snip20200426_10.png" alt="1"></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2020/04/08/hello-world/" data-id="ck8sgh4vy0001pnbmcqs17j8l" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2020/04/26/hello-world/" data-id="ck9gwa0kb0000h2bm9whzbwkb" class="article-share-link">Share</a>
       
       
     </footer>
@@ -175,7 +170,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/05/">May 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/04/">April 2020</a></li></ul>
     </div>
   </div>
 
@@ -188,11 +183,11 @@
       <ul>
         
           <li>
-            <a href="/2020/04/09/%E7%94%A8%E7%BB%88%E7%AB%AF%E5%86%99hexo%E7%9A%84%E5%91%BD%E4%BB%A4%E4%B8%8E%E6%89%A7%E8%A1%8C%E8%BF%87%E7%A8%8B/">用终端写hexo的命令与执行过程</a>
+            <a href="/2020/05/12/aasas/">aasas</a>
           </li>
         
           <li>
-            <a href="/2020/04/08/hello-world/">Hello World</a>
+            <a href="/2020/04/26/hello-world/">Hello World</a>
           </li>
         
       </ul>
